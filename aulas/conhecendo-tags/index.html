@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Tagas de titulo -->
+
+     <h1>Heading 1</h1> <!-- Titulo princial -->
+     <h3>Heading 3</h3> <!-- Subtitulos -->
+     <h2>Heading 2</h2> <!-- Subtitulos -->
+     <h4>Heading 4</h4> <!-- Subtitulos -->
+     <h5>Heading 5</h5> <!-- Subtitulos -->
+     <h6>Heading 6</h6> <!-- Subtitulos -->
+
+     <!-- Tagas de paragrafos -->
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis tristique neque. Sed non libero eu neque tincidunt consectetur.</p>
+     <p class="highlight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis tristique neque. Sed non libero eu neque tincidunt consectetur.</p> <!-- Paragrafo com classe personalizada -->
+     <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong> Integer quis tristique neque. Sed non libero eu neque tincidunt consectetur.</p> <!-- Paragrafo com formato em negrito -->
+     <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</em> Integer quis tristique neque. Sed non libero eu neque tincidunt consectetur.</p> <!-- Paragrafo com formato em cursiva -->
+
+     <!-- Tagas de links -->
+     <a href="https://www.example.com">Link Externo</a> <!-- Link para um endereço externo -->
+     <a href="#section">Link Interno</a> <!-- Link para uma seção específica -->
+     <a href="mailto:user@example.com">Email</a> <!-- Link para um email -->
+
+     <!-- Tagas de imagem -->
+     <img src="image.jpg" alt="Imagem"> <!-- Imagem com um texto alternativo -->
+     <img src="image.jpg" width="200" height="200" alt="Imagem"> <!-- Imagem com dimensões personalizadas -->
+     <img src="image.jpg" style="width: 200px; height: 200px;" alt="Imagem"> <!-- Imagem com estilos CSS -->
+
+     <!-- Tagas de formularios -->
+     <form action="submit.php" method="post"> <!-- Formulario com dados enviados via POST -->
+         <label for="nome">Nome:</label>
+         <input type="text" id="nome" name="nome" required> <!-- Campo de texto obrigatorio -->
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email" required> <!-- Campo de email obrigatorio -->
+         <input type="submit" value="Enviar"> <!-- Botão de envio -->
+     </form>
+
+     <!-- Tagas de divs e spans -->
+     <div> <!-- Division de conteudo -->
+         <h2>Div Title</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis tristique neque. Sed non libero eu neque tincidunt consectetur.</p>
+     </div>
+     <span>Span Text</span> <!-- Texto simples -->
+
+     <!-- Tagas de blocos -->
+     <blockquote cite="source.com"> <!-- Citacao -->
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis tristique neque. Sed non libero eu neque tincidunt consectetur.</p>
+     </blockquote>
+
+     <!-- Tagas de codigo -->
+     <pre>
+         <code>
+             function myFunction() {
+                 var x = "Hello, World!";
+                 console.log(x);
+             }
+         </code>
+     </pre>
+
+     <!-- Tagas de tablas -->
+      <table>
+         <tr>
+             <th>Header 1</th>
+             <th>Header 2</th>
+             <th>Header 3</th>
+         </tr>
+         <tr>
+             <td>Data 1</td>
+             <td>Data 2</td>
+             <td>Data 3</td>
+         </tr>
+         <tr>
+             <td>Data 4</td>
+             <td>Data 5</td>
+             <td>Data 6</td>
+         </tr>
+     </table>
+
+     <!-- Tagas de lista -->
+     <ul> <!-- Lista desordenada -->
+         <li>Item 1</li>
+         <li>Item 2</li>
+         <li>Item 3</li>
+     </ul>
+     <ol> <!-- Lista ordenada -->
+         <li>Item 1</li>
+         <li>Item 2</li>
+         <li>Item 3</li>
+     </ol>
+
+     <!-- Tagas de seccion -->
+     <section> <!-- Contenedor de informacion -->
+         <h2>Section Title</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis tristique neque. Sed non libero eu neque tincidunt consectetur.</p>
+     </section>
+
+     <!-- Tagas de cita -->
+      <cite>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</cite> <!-- Cita de um texto -->
+      <cite>Source: <a href="source.com">source.com</a></cite> <!-- Cita com um link -->
+     <cite>Author: <a href="author.com">Author Name</a></cite> <!-- Cita com um link -->
+     <cite>Date: <time datetime="2022-01-01">January 1, 2022</time></cite> <!-- Cita com uma data -->
+
+     <!-- Tagas de audio e video -->
+     <audio controls>
+         <source src="audio.mp3" type="audio/mpeg">
+         Your browser does not support the audio element.
+     </audio>
+     <video controls>
+         <source src="video.mp4" type="video/mp4">
+         Your browser does not support the video element.
+     </video>
+     <audio controls>
+         <source src="audio.ogg" type="audio/ogg">
+         Your browser does not support the audio element.
+     </audio>
+     <video controls>
+         <source src="video.ogv" type="video/ogg">
+         Your browser does not support the video element.
+     </video>
+
+     <!-- Tagas de iframe -->
+     <iframe src="https://www.example.com" width="560" height="315"></iframe> <!-- IFrame com um link -->
+     <iframe src="https://www.example.com" width="560" height="315" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe> <!-- IFrame com permissoes personalizadas -->
+     <iframe src="https://www.example.com" width="560" height="315" sandbox></iframe> <!-- IFrame com sandbox -->
+     <iframe src="https://www.example.com" width="560" height="315" loading="lazy"></iframe> <!-- IFrame com loading lazy -->
+     <iframe src="https://www.example.com" width="560" height="315" scrolling="no"></iframe> <!-- IFrame sem scroll -->
+     <iframe src="https://www.example.com" width="560" height="315" title="Example Title"></iframe> <!-- IFrame com titulo -->
+     <iframe src="https://www.example.com" width="560" height="315" frameborder="0"></iframe> <!-- IFrame sem borda -->
+
+     <!-- Tagas de mapa -->
+     <map name="myMap">
+         <area shape="rect" coords="0,0,100,50" href="https://www.example.com" alt="Link">
+     </map>
+     <img src="image.jpg" usemap="#myMap" alt="Imagem com mapa"> <!-- Imagem com um mapa -->
+
+     <!-- Tagas de animacao -->
+     <img src="image.gif" alt="Imagem animada"> <!-- Imagem animada -->
+     <img src="image.gif" alt="Imagem animada" style="animation: rotate 5s infinite;"> <!-- Imagem animada com animacao -->
+     <img src="image.gif" alt="Imagem animada" style="animation: fade 5s infinite;"> <!-- Imagem animada com animacao -->
+     <img src="image.gif" alt="Imagem animada" style="animation: move 5s infinite;"> <!-- Imagem animada com animacao -->
+     <img src="image.gif" alt="Imagem animada" style="animation: scale 5s infinite;"> <!-- Imagem animada com animacao -->
+
+     <!-- Tagas de SVG -->
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
+      <!-- SVG com animacao -->
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <animateTransform attributeName="transform" type="rotate" from="0 16 16" to="360 16 16" dur="5s" repeatCount="indefinite" />
+      </svg>
+
+      <!-- Tagas de Canvas -->
+      <canvas id="myCanvas" width="200" height="100"></canvas>
+      <script>
+         var canvas = document.getElementById("myCanvas");
+         var ctx = canvas.getContext("2d");
+         ctx.beginPath();
+         ctx.arc(100, 50, 40, 0, Math.PI * 2);
+         ctx.fillStyle = "red";
+         ctx.fill();
+         ctx.closePath();
+      </script>
+</body>
+</html>
