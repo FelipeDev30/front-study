@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    margin:0 auto;
+    text-align: center;
+    background-color: rgba(80, 67, 67, 0.582);
+}
+
+.menu a {
+    font-size: 1.25rem;
+    margin: 0 1.25rem;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: rgb(103, 118, 156);   
+    background-color: black;
+    border-radius: 5px;
+    padding: 0.5rem 0.3rem;
+    transition: all 0.3s ease-in-out;
+}
+
