@@ -1,0 +1,54 @@
+h1 {
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+}
+
+h2 {
+    background-color: blue;
+    color: white;
+    font-size: 1.5rem;
+}
+
+h3 {
+    background-color: green;
+    color: white;
+    font-size: 1.25rem;
+}
+
+h4 {
+    background-color: yellow;
+    color: black;
+    font-size: 1rem;
+}
+
+h5 {
+    background-color: orange;
+    color: black;
+    font-size: 0.75rem;
+}
+
+h6 {
+    background-color: purple;
+    color: white;
+    font-size: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: justify;
+    font-weight: bold;
+    color: gray;
+}
+
+a {
+    color: rgb(107, 107, 183);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: rgb(14, 14, 36);
+}
