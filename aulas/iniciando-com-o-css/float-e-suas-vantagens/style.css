@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+}
+
+.pai {
+    width: 1280px;
+    padding: 20px 0;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+.filho {
+    box-sizing: border-box;
+    float: left;
+    border: 2px solid black;
+    width: 640px;
+    height: 300px;
+    background-color: red;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+
+}
+.filho:nth-child(2) {
+    background-color: green;
+}
+.filho:nth-child(3) {
+    background-color: rgba(255, 255, 0, 0.822);
+}
+.filho:nth-child(4) {
+    background-color: purple;
+}
