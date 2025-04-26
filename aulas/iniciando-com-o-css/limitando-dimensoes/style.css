@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+}
+
+.header {
+    background-color: gray;
+    width: 100%;
+    min-width: 1280px; /* Define a largura minima do cabeçalho */
+    height: 200px; /* Define a altura do cabeçalho */
+}
+
+.article {
+    background-color: red;
+    margin: 0 auto; /* Centraliza o artigo horizontalmente */
+    width: 1280px;
+    height: 10%;
+    min-height: 50%;
+} 
+
+
