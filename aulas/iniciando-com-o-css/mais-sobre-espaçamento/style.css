@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.artigo {
+    margin: 20px;
+    padding-left: 5px;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+    padding-left: 5px;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
