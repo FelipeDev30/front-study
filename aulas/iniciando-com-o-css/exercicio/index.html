@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="cb-principal">
-        <h1 class="cb-titulo">Título do site</h1>
+        <h1 class="cb-titulo">Litech-Informática</h1>
         <nav class="cb-menu">
             <ul class="cb-lista">
                 <li class="cb-item"><a href="#" class="cb-link">Home</a></li>
@@ -17,41 +17,53 @@
                 <li class="cb-item"><a href="#" class="cb-link">Contato</a></li>
             </ul>
         </nav>
-        <div class="cb-busca">
-            <input type="text" class="cb-input" placeholder="Pesquisar...">
-            <button class="cb-botao">Buscar</button>
-        </div>
     </header>
     <main class="cb-conteudo">
-        <section class="cb-artigo">
-            <h2 class="cb-subtitulo">Lorena Bijus</h2>
+
+        <section class="cb-artigo" id="home">
+            <h2 class="cb-subtitulo">LipeTech – Tecnologia que impulsiona você!</h2>
             <p class="cb-texto">
-                Bem-vindo à nossa loja de bijuterias, onde cada peça conta uma história! Aqui, você encontrará acessórios únicos e delicados, perfeitos para realçar sua beleza e expressar seu estilo. Com designs exclusivos e materiais de qualidade, nossa coleção foi criada para acompanhar você em todos os momentos. Descubra o brilho que combina com você! ✨
+                Oferecemos notebooks, desktops e acessórios de alta qualidade para trabalho, estudo e lazer. Com suporte especializado, ajudamos você a encontrar a melhor solução para maximizar sua produtividade.
             </p>
         </section>
-        <aside class="cb-sidebar">
-            <h3 class="cb-subtitulo">Sidebar</h3>
-            <ul class="cb-lista">
-                <li class="cb-item"><a href="#" class="cb-link">Link 1</a></li>
-                <li class="cb-item"><a href="#" class="cb-link">Link 2</a></li>
-                <li class="cb-item"><a href="#" class="cb-link">Link 3</a></li>
-            </ul>
+
         
-        </aside>
-        <section class="cb-galeria">
-            <h3 class="cb-subtitulo">Galeria</h3>
+        <section class="cb-galeria" id="galeria">
+            <h2 class="cb-subtitulo">Galeria</h2>
+            <hr>
             <div class="cb-imagem">
+                <img src="assets/images/assus-vivobook.jpg" alt="Notebook Assus Vivobook" class="cb-imagem">
+                <p class="cb-texto-galeria">Notebook ASUS Vivobook 15 Core I5, <br> 16 GB, 512 GB SSD, W 11 Home,<br> 15.6'' LED, Quiet Blue</p>
             </div>
-            <div class="cb-imagem"></div>
-            <div class="cb-imagem"></div>
-            <div class="cb-imagem"></div>
-            <div class="cb-imagem"></div>
+            <div class="cb-imagem">
+                <img src="assets/images/dell-inspirion15.jpg"  alt="Notebook dell-inspirion15" class="cb-imagem">
+                <p class="cb-texto-galeria">Notebook Dell Inspiron I15-I120K-A25P <br> 15.6" Full HD 12ª Geração Intel Core i5 <br> 8GB 512GB SSD Windows 11 Preto</p>
+            </div>
+            <div class="cb-imagem">
+                <img src="assets/images/Lenovo-IdeaPad 1i I7.jpg" alt="Notebook Lenovo IdeaPad 1i I7" class="cb-imagem">
+                <p class="cb-texto-galeria">Notebook Lenovo IdeaPad 1i i7-1255U <br> 12GB 512GB 15.6" W11</p>
+            </div>
+            <div class="cb-imagem">
+                <img src="assets/images/HP 256r G9 Intel Core I5.jpg" alt="Notebook HP 256r G9 Intel Core I5" class="cb-imagem">
+                <p class="cb-texto-galeria">Notebook HP 256r G9 Intel Core I5-1335u <br>13° Geração - 15.6" HD Intel UHD Graphics  <br> 256GB SSD 8GB RAM Windows 11 Home 64-bit</p>
+            </div>
+            <div class="cb-imagem">
+                <img src="assets/images/Acer Nitro V15.jpg" alt="Notebook Acer Nitro V15" class="cb-imagem">
+                <p class="cb-texto-galeria">Notebook Acer Nitro V15 ANV15-51-73E9 <br> Intel Core i7-13620H, 16GB RAM, <br> 512GB SSD, NVIDIA RTX 3050, <br> 15.6" LED Full HD 144Hz, Linux Gutta</p>
+            </div>
         </section>
-        <section class="cb-contato">
-            <h3 class="cb-subtitulo">Contato</h3>
+
+        <hr>
+        
+        <section class="cb-contato" id="contato">
+            <h2 class="cb-subtitulo">Entre em contato</h2>
             <form class="cb-formulario">
                 <label for="nome" class="cb-label">Nome:</label>
                 <input type="text" id="nome" class="cb-input" required>
+                <label for="telefone" class="cb-label">Telefone:</label>
+                <input type="tel" id="telefone" class="cb-input" required>
+                <label for="mensagem" class="cb-label">Mensagem:</label>
+                <textarea id="mensagem" class="cb-textarea" rows="4" required></textarea>
                 <label for="email" class="cb-label">Email:</label>
                 <input type="email" id="email" class="cb-input" required>
                 <button type="submit" class="cb-botao">Enviar</button>
