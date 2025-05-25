@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Exemplos */
+
+a[href] {
+    color: rgb(14, 13, 13);
+    background-color: black;
+}
+
+a[href="https://www.dankicode.com"] {
+    color: rgb(33, 128, 33);
+}
+
+a[href*="google"] {
+    border: 1px solid rgb(27, 9, 9);
+    background-color: rgb(255, 0, 55);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+img[alt] {
+    border: 1px solid rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+}
